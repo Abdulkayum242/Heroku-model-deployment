@@ -13,7 +13,7 @@ import sklearn
 import pickle
 
 app=Flask(__name__)
-model=pickle.load(open('Flight_price.pkl','rb'))
+model=pickle.load(open('Flight.pkl','rb'))
  
 
 @app.route("/")
