@@ -417,13 +417,13 @@ print('RMSE:', np.sqrt(metrics.mean_squared_error(Y_test, prediction)))
 
 import pickle
 # open a file where you want to store the data
-file=open('Flight_price.pkl','wb')
+file=open('Flight.pkl','wb')
 
 # dump information to that file 
 pickle.dump(RF_random,file)
 
 
-model=open('Flight_price.pkl','rb')
+model=open('Flight.pkl','rb')
 forest=pickle.load(model)
 
 y_prediction=forest.predict(X_test)
