@@ -19,13 +19,13 @@ model=pickle.load(open('Flight.pkl','rb'))
 @app.route("/")
 @cross_origin()
 def home():
-    return render_template('home.html')
+    return render_template("home.html")
 
 
-@app.route('/predict',methods=['GET','POST'])
+@app.route("/predict",methods=["GET','POST"])
 @cross_origin()
 def predict():
-    if request.method=='POST':
+    if request.method=="POST":
         
         # date of jourey
         date_dep=request.form['Dep_Time']
