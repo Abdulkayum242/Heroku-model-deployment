@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May 18 13:08:05 2021
-
-@author: onero
-"""
-
-
 import pandas as pd
 from flask import Flask , request ,render_template
 from flask_cors import cross_origin
