@@ -1,0 +1,17 @@
+body {
+  background-image:url(https://wonderfulengineering.com/wp-content/uploads/2014/05/airplane-wallpaper-2.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+}
+.content{
+    background:white;
+    width: 50%;
+    padding:40px;
+    margin: 100px auto;
+}
+
+
+
+
+
+   
